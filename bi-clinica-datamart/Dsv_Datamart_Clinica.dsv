@@ -1,0 +1,221 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="6fb77c7d-de8d-495f-8d56-25c45955daf8" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dsv_Datamart_Clinica</ID>
+  <Name>Dsv_Datamart_Clinica</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:NameMatchingCriteria</Name>
+      <Value>1</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Cnx_Datamart_Clinica</DataSourceID>
+  <Schema>
+    <xs:schema id="Dsv_Datamart_Clinica" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Dsv_Datamart_Clinica" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="4d4ed452-f316-4c67-a244-43265b3fa77a">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_CANALES" msprop:design-time-name="4dd57fc8-c2b4-4ecc-8f2b-16a9cdb7ab1f" msprop:DbTableName="CANALES" msprop:FriendlyName="CANALES" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="CANALES_ID" msprop:design-time-name="571aacf6-5239-49f2-aa97-3064d343531b" msprop:DbColumnName="CANALES_ID" msprop:FriendlyName="CANALES_ID" type="xs:int" minOccurs="0" />
+                  <xs:element name="CANALES" msprop:design-time-name="df4629e7-3883-428f-b4f5-b77e5ad5e97f" msprop:DbColumnName="CANALES" msprop:FriendlyName="CANALES" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_CITAS" msprop:design-time-name="b2c4f2ef-c040-470d-a305-04e9f391680c" msprop:DbTableName="CITAS" msprop:FriendlyName="CITAS" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="CITAS_ID" msprop:design-time-name="d1784398-a245-4eb4-b259-21ec1bef0f2f" msprop:DbColumnName="CITAS_ID" msprop:FriendlyName="CITAS_ID" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_ESPECIALIDAD" msprop:design-time-name="32cb4f5b-d4b0-41d7-b2da-6771b5ec7e78" msprop:DbTableName="ESPECIALIDAD" msprop:FriendlyName="ESPECIALIDAD" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ESPECIALIDAD_ID" msprop:design-time-name="3d861085-7ec4-4ada-a89e-6a7436f22f1b" msprop:DbColumnName="ESPECIALIDAD_ID" msprop:FriendlyName="ESPECIALIDAD_ID" type="xs:int" minOccurs="0" />
+                  <xs:element name="ESPECIALIDAD" msprop:design-time-name="3c6dafc2-09bc-4450-8ab3-e81f12469c69" msprop:DbColumnName="ESPECIALIDAD" msprop:FriendlyName="ESPECIALIDAD" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_ESTADO_CITA" msprop:design-time-name="f38664c8-f2a7-415e-a1bf-964900b1ba27" msprop:DbTableName="ESTADO_CITA" msprop:FriendlyName="ESTADO_CITA" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ESTADO_CITA_ID" msprop:design-time-name="35f78f03-57cf-4327-9f85-7e1b117208c3" msprop:DbColumnName="ESTADO_CITA_ID" msprop:FriendlyName="ESTADO_CITA_ID" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ESTADO_CITA" msprop:design-time-name="fe3f4fc9-3334-4925-b0e5-bc2e353bd673" msprop:DbColumnName="ESTADO_CITA" msprop:FriendlyName="ESTADO_CITA" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_MEDICO" msprop:design-time-name="1608608a-894b-4ce8-a8c1-62a3c6bb9920" msprop:DbTableName="MEDICO" msprop:FriendlyName="MEDICO" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="MEDICO_ID" msprop:design-time-name="3531278a-baf9-485e-bf61-181f8f98bff1" msprop:DbColumnName="MEDICO_ID" msprop:FriendlyName="MEDICO_ID" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="MEDICO_ESPECIALIDAD" msprop:design-time-name="97050cde-b255-4c49-be3b-09aa7379f2dc" msprop:DbColumnName="MEDICO_ESPECIALIDAD" msprop:FriendlyName="MEDICO_ESPECIALIDAD" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="MED_L" msprop:design-time-name="6fabddc4-f20c-45c9-a0b3-2f0813a5203d" msprop:DbColumnName="MED_L" msprop:FriendlyName="MED_L" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_PACIENTES" msprop:design-time-name="a0053e0b-17a2-4c65-b7db-cfe30392aefd" msprop:DbTableName="PACIENTES" msprop:FriendlyName="PACIENTES" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="PACIENTES_ID" msprop:design-time-name="cff14108-5c0c-4559-942f-e7d37e48d472" msprop:DbColumnName="PACIENTES_ID" msprop:FriendlyName="PACIENTES_ID" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_SEDES" msprop:design-time-name="abeebbc0-d4eb-4674-8c5c-d43fb30a08b9" msprop:DbTableName="SEDES" msprop:FriendlyName="SEDES" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="SEDES_ID" msprop:design-time-name="193d96ff-d666-4f43-9ccc-9f6fb5492fce" msprop:DbColumnName="SEDES_ID" msprop:FriendlyName="SEDES_ID" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="SEDES_NOMBRE" msprop:design-time-name="e8e6b8c0-6f74-42c1-83fc-0301d6f7a031" msprop:DbColumnName="SEDES_NOMBRE" msprop:FriendlyName="SEDES_NOMBRE" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="SEDES_DIRECCION" msprop:design-time-name="cd101957-f01e-455f-b4d0-923c472e2cc0" msprop:DbColumnName="SEDES_DIRECCION" msprop:FriendlyName="SEDES_DIRECCION" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="SEDES_TELEFONO" msprop:design-time-name="b734c336-6d48-437e-9612-c771a3e07c18" msprop:DbColumnName="SEDES_TELEFONO" msprop:FriendlyName="SEDES_TELEFONO" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_TIPO_CITA" msprop:design-time-name="6126424a-8510-4f7a-9580-a5e8a0a9e419" msprop:DbTableName="TIPO_CITA" msprop:FriendlyName="TIPO_CITA" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="TIPO_CITA_ID" msprop:design-time-name="13f29f99-357e-4b8a-8d72-42ebbc892d0a" msprop:DbColumnName="TIPO_CITA_ID" msprop:FriendlyName="TIPO_CITA_ID" type="xs:int" minOccurs="0" />
+                  <xs:element name="TIPO_CITA" msprop:design-time-name="6b3ff507-7c24-40c6-ad6f-3d0473f05a5f" msprop:DbColumnName="TIPO_CITA" msprop:FriendlyName="TIPO_CITA" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_TIPO_SEGURO" msprop:design-time-name="d122327c-f616-45ca-86a4-af8b903b8ef8" msprop:DbTableName="TIPO_SEGURO" msprop:FriendlyName="TIPO_SEGURO" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="TIPO_SEGURO_ID" msprop:design-time-name="98aea271-a7b7-46dd-924c-0a0187921bb5" msprop:DbColumnName="TIPO_SEGURO_ID" msprop:FriendlyName="TIPO_SEGURO_ID" type="xs:int" minOccurs="0" />
+                  <xs:element name="TIPO_SEGURO" msprop:design-time-name="8afd74e9-f23d-4028-8f46-0496ca130824" msprop:DbColumnName="TIPO_SEGURO" msprop:FriendlyName="TIPO_SEGURO" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <Dsv_Datamart_Clinica xmlns="" />
+  </Schema>
+</DataSourceView>
