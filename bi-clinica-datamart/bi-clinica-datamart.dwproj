@@ -8,32 +8,32 @@
   </Database>
   <Cubes>
     <ProjectItem>
-      <Name>Cubo_Datamart_Clinica.cube</Name>
-      <FullPath>Cubo_Datamart_Clinica.cube</FullPath>
+      <Name>Clinicadb.cube</Name>
+      <FullPath>Clinicadb.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>Cubo_Datamart_Clinica.partitions</Name>
-          <FullPath>Cubo_Datamart_Clinica.partitions</FullPath>
+          <Name>Clinicadb.partitions</Name>
+          <FullPath>Clinicadb.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
   </Cubes>
   <Dimensions>
     <ProjectItem>
-      <Name>CANALES.dim</Name>
-      <FullPath>CANALES.dim</FullPath>
+      <Name>CITA.dim</Name>
+      <FullPath>CITA.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
-      <Name>Cnx_Datamart_Clinica.ds</Name>
-      <FullPath>Cnx_Datamart_Clinica.ds</FullPath>
+      <Name>Clinicadb.ds</Name>
+      <FullPath>Clinicadb.ds</FullPath>
     </ProjectItem>
   </DataSources>
   <DataSourceViews>
     <ProjectItem>
-      <Name>Dsv_Datamart_Clinica.dsv</Name>
-      <FullPath>Dsv_Datamart_Clinica.dsv</FullPath>
+      <Name>Clinicadb.dsv</Name>
+      <FullPath>Clinicadb.dsv</FullPath>
     </ProjectItem>
   </DataSourceViews>
   <Configurations>
@@ -42,22 +42,32 @@
       <Options>
         <ConnectionMappings>
           <ConfigurationSetting>
-            <Id>Cnx_Datamart_Clinica</Id>
-            <Name>Cnx_Datamart_Clinica</Name>
+            <Id>Bdclinica</Id>
+            <Name>Bdclinica</Name>
             <Value xsi:type="xsd:string">Data Source=10.165.7.153;Initial Catalog=bdclinica;User ID=;Password=</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>Clinicadb</Id>
+            <Name>Clinicadb</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=localhost;Password=;User ID=;Initial Catalog=clinicadb</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionProviderMappings>
           <ConfigurationSetting>
-            <Id>Cnx_Datamart_Clinica</Id>
-            <Name>Cnx_Datamart_Clinica</Name>
+            <Id>Bdclinica</Id>
+            <Name>Bdclinica</Name>
             <Value xsi:type="xsd:string">System.Data.SqlClient</Value>
           </ConfigurationSetting>
         </ConnectionProviderMappings>
         <ConnectionSecurityMappings>
           <ConfigurationSetting>
-            <Id>Cnx_Datamart_Clinica</Id>
-            <Name>Cnx_Datamart_Clinica</Name>
+            <Id>Bdclinica</Id>
+            <Name>Bdclinica</Name>
+            <Value xsi:type="xsd:int">1</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>Clinicadb</Id>
+            <Name>Clinicadb</Name>
             <Value xsi:type="xsd:int">1</Value>
           </ConfigurationSetting>
         </ConnectionSecurityMappings>
