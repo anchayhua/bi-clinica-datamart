@@ -8,32 +8,52 @@
   </Database>
   <Cubes>
     <ProjectItem>
-      <Name>Clinicadb.cube</Name>
-      <FullPath>Clinicadb.cube</FullPath>
+      <Name>Cubo_Datamart_Clinica.cube</Name>
+      <FullPath>Cubo_Datamart_Clinica.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>Clinicadb.partitions</Name>
-          <FullPath>Clinicadb.partitions</FullPath>
+          <Name>Cubo_Datamart_Clinica.partitions</Name>
+          <FullPath>Cubo_Datamart_Clinica.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
   </Cubes>
   <Dimensions>
     <ProjectItem>
-      <Name>CITA.dim</Name>
-      <FullPath>CITA.dim</FullPath>
+      <Name>TIPO CITA.dim</Name>
+      <FullPath>TIPO CITA.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>TIPO SEGURO.dim</Name>
+      <FullPath>TIPO SEGURO.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>CANALES.dim</Name>
+      <FullPath>CANALES.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>ESTADO CITA.dim</Name>
+      <FullPath>ESTADO CITA.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>ESPECIALIDAD MEDICO.dim</Name>
+      <FullPath>ESPECIALIDAD MEDICO.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>PACIENTES.dim</Name>
+      <FullPath>PACIENTES.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
-      <Name>Clinicadb.ds</Name>
-      <FullPath>Clinicadb.ds</FullPath>
+      <Name>Cnx_Datamart_Clinica.ds</Name>
+      <FullPath>Cnx_Datamart_Clinica.ds</FullPath>
     </ProjectItem>
   </DataSources>
   <DataSourceViews>
     <ProjectItem>
-      <Name>Clinicadb.dsv</Name>
-      <FullPath>Clinicadb.dsv</FullPath>
+      <Name>Dsv_Datamart_Clinica.dsv</Name>
+      <FullPath>Dsv_Datamart_Clinica.dsv</FullPath>
     </ProjectItem>
   </DataSourceViews>
   <Configurations>
@@ -49,7 +69,7 @@
           <ConfigurationSetting>
             <Id>Clinicadb</Id>
             <Name>Clinicadb</Name>
-            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=localhost;Password=;User ID=;Initial Catalog=clinicadb</Value>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=localhost;Persist Security Info=True;Password=;User ID=;Initial Catalog=clinicadb</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionProviderMappings>
