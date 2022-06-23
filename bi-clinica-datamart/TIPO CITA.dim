@@ -1,14 +1,14 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="38233c8c-0df1-43f3-b332-5dd3deb43881" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="dff7ebb4-65d2-4508-9d6e-2c71ddb00843" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>TIPO CITA</ID>
   <Name>TIPO CITA</Name>
-  <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
-  <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-6965" scrolltop="-9075" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="17092" y="23336" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-6965" scrolltop="-10861" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="17092" y="23601" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="TIPO_CITA" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3122" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="TIPO_CITA" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3122" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000320c000057070000" />
             </control>
@@ -51,7 +51,7 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-9075</Value>
+      <Value>-10861</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -65,57 +65,36 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
       <Value>100</Value>
     </Annotation>
-    <Annotation>
-      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
-      <Value>
-        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
-          <Shapes NodeWidth="104">
-            <Shape Id="TIPO CITA ID" Expanded="false">
-              <Attributes>
-                <Attribute Id="TIPO CITA ID" />
-              </Attributes>
-              <Position x="20" y="20" />
-            </Shape>
-            <Shape Id="TIPO CITA" Expanded="false">
-              <Attributes>
-                <Attribute Id="TIPO CITA" />
-              </Attributes>
-              <Position x="155" y="20" />
-            </Shape>
-          </Shapes>
-        </DiagramLayout>
-      </Value>
-    </Annotation>
   </Annotations>
-  <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="921d6856-3f73-47ab-a83e-7e8772aaac14">
-    <DataSourceViewID>Clinicadb</DataSourceViewID>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="aac9c91e-d10c-4dda-ba21-a07bec5f8d35">
+    <DataSourceViewID>Dsv_Datamart_Clinica</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="36ac22c4-82e8-4df6-81e0-e5c7a9952fe6">
+  <ErrorConfiguration dwd:design-time-name="d059c24f-db74-4500-a8c5-754b7ff73743">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="328071b3-45d9-4f89-9cf6-45b4fc5b10e5">
+    <Attribute dwd:design-time-name="535edd30-2045-457c-b83a-93e5cd7c8d8e">
       <ID>TIPO CITA ID</ID>
       <Name>TIPO CITA ID</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="00d129bc-0b42-4a2e-862d-8ff802859171">
+        <KeyColumn dwd:design-time-name="ea78e352-d963-4df9-883e-5fe7a2d42ce6">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="f066863d-c0b6-4082-a556-15f551ea5344">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ac679bfd-5c86-4e0b-b4d9-ba06c778e87c">
             <TableID>dbo_TIPO_CITA</TableID>
             <ColumnID>TIPO_CITA_ID</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="5cdbf2d6-ca35-4e2f-9e92-829c69f8ed39">
+        <AttributeRelationship dwd:design-time-name="40eea882-71f4-48a4-9a36-542963414709">
           <AttributeID>TIPO CITA</AttributeID>
           <Name>TIPO CITA</Name>
         </AttributeRelationship>
@@ -124,14 +103,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="970cc664-77af-4267-8db6-a7a9d6de888b">
+    <Attribute dwd:design-time-name="493f0510-349b-47ab-a3a5-1deb8a1968a8">
       <ID>TIPO CITA</ID>
       <Name>TIPO CITA</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="ecc93079-d701-4ffb-b91d-3621d1b6e584">
+        <KeyColumn dwd:design-time-name="7eb86166-f250-4d01-99f1-bcd60467313d">
           <DataType>WChar</DataType>
           <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="36fec63a-e117-4348-aade-400240a6410a">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c5bfbce2-1671-4e96-b715-1f6b09de9f82">
             <TableID>dbo_TIPO_CITA</TableID>
             <ColumnID>TIPO_CITA</ColumnID>
           </Source>
@@ -141,13 +120,12 @@
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
   </Attributes>
-  <AttributeAllMemberName>Todas las Citas</AttributeAllMemberName>
   <Hierarchies>
-    <Hierarchy dwd:design-time-name="73028f7d-5604-4d7d-ae2f-7cd6b4d09068">
+    <Hierarchy dwd:design-time-name="376caec3-43b8-4a7d-ac15-fd92d1c27304">
       <ID>Jerarquía</ID>
-      <Name>TIPO DE CITA</Name>
+      <Name>Jerarquía</Name>
       <Levels>
-        <Level dwd:design-time-name="ac0c2713-9ef7-4572-8c25-8b47cada0998">
+        <Level dwd:design-time-name="c0925c23-83cb-4961-86b4-56d5f9e282f8">
           <ID>TIPO CITA</ID>
           <Name>TIPO CITA</Name>
           <SourceAttributeID>TIPO CITA</SourceAttributeID>

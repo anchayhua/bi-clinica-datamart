@@ -8,12 +8,12 @@
   </Database>
   <Cubes>
     <ProjectItem>
-      <Name>Cubo_Datamart_Clinica.cube</Name>
-      <FullPath>Cubo_Datamart_Clinica.cube</FullPath>
+      <Name>Dsv_Datamart_Clinica.cube</Name>
+      <FullPath>Dsv_Datamart_Clinica.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>Cubo_Datamart_Clinica.partitions</Name>
-          <FullPath>Cubo_Datamart_Clinica.partitions</FullPath>
+          <Name>Dsv_Datamart_Clinica.partitions</Name>
+          <FullPath>Dsv_Datamart_Clinica.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
@@ -34,14 +34,6 @@
     <ProjectItem>
       <Name>ESTADO CITA.dim</Name>
       <FullPath>ESTADO CITA.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>ESPECIALIDAD MEDICO.dim</Name>
-      <FullPath>ESPECIALIDAD MEDICO.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>PACIENTES.dim</Name>
-      <FullPath>PACIENTES.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>

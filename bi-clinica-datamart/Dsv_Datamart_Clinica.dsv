@@ -1,8 +1,8 @@
-﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="ec55d357-55cf-48c9-8ea1-80bd22a4240a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
-  <ID>Clinicadb</ID>
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="6200d497-d527-4ff9-914b-ae80bb244c29" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dsv_Datamart_Clinica</ID>
   <Name>Dsv_Datamart_Clinica</Name>
-  <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
-  <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
@@ -14,6 +14,7 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
@@ -40,44 +41,30 @@
   </Annotations>
   <DataSourceID>Clinicadb</DataSourceID>
   <Schema>
-    <xs:schema id="Clinicadb" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
-      <xs:element name="Clinicadb" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="cd23e1ad-291e-49b8-aeb7-66f984e4b8c2">
+    <xs:schema id="Dsv_Datamart_Clinica" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Dsv_Datamart_Clinica" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="9fdc1c4e-24b9-4ee4-9bb8-5365b8d3ada5">
         <xs:complexType>
           <xs:choice minOccurs="0" maxOccurs="unbounded">
-            <xs:element name="dbo_CITA" msprop:design-time-name="2ef1c445-4b14-483a-81d6-1cebdebb6a8f" msprop:FriendlyName="CITA" msprop:DbSchemaName="dbo" msprop:DbTableName="CITA" msprop:TableType="Table">
+            <xs:element name="dbo_CITA" msprop:design-time-name="ae51462e-2d70-4321-9901-c885c7780c81" msprop:DbTableName="CITA" msprop:FriendlyName="CITA" msprop:DbSchemaName="dbo" msprop:TableType="Table">
               <xs:complexType>
                 <xs:sequence>
-                  <xs:element name="CITA_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="32374546-0f78-4b15-9018-ff09bf50c1ee" msprop:DbColumnName="CITA_ID" msprop:FriendlyName="CITA_ID" type="xs:int" />
-                  <xs:element name="ESTADO_CITA_ID" msprop:design-time-name="b4d0ba07-fb49-4cce-8882-4a60c9e01f3f" msprop:DbColumnName="ESTADO_CITA_ID" msprop:FriendlyName="ESTADO_CITA_ID" type="xs:int" minOccurs="0" />
-                  <xs:element name="CANALES_ID" msprop:design-time-name="64294778-a23a-4726-9513-faba11066743" msprop:DbColumnName="CANALES_ID" msprop:FriendlyName="CANALES_ID" type="xs:int" minOccurs="0" />
-                  <xs:element name="TIPO_CITA_ID" msprop:design-time-name="331d49b8-df63-49e3-aebe-b5b23a00544e" msprop:DbColumnName="TIPO_CITA_ID" msprop:FriendlyName="TIPO_CITA_ID" type="xs:int" minOccurs="0" />
-                  <xs:element name="TIPO_SEGURO_ID" msprop:design-time-name="0defe67d-32d0-4051-857b-c1667c2dc341" msprop:DbColumnName="TIPO_SEGURO_ID" msprop:FriendlyName="TIPO_SEGURO_ID" type="xs:int" minOccurs="0" />
-                  <xs:element name="ESPECIALIDAD_SEDES_ID" msprop:design-time-name="72bb5ce7-5e36-486f-b550-b6129d604ff9" msprop:DbColumnName="ESPECIALIDAD_SEDES_ID" msprop:FriendlyName="ESPECIALIDAD_SEDES_ID" type="xs:int" minOccurs="0" />
-                  <xs:element name="PACIENTES_ID" msprop:design-time-name="a1658bbf-3bc4-4791-897c-c8c79b4d5cc1" msprop:DbColumnName="PACIENTES_ID" msprop:FriendlyName="PACIENTES_ID" type="xs:int" minOccurs="0" />
-                  <xs:element name="CITA_FECHA" msprop:design-time-name="2b5b398a-587f-4658-bca3-b51856745077" msprop:DbColumnName="CITA_FECHA" msprop:FriendlyName="CITA_FECHA" type="xs:dateTime" minOccurs="0" />
-                  <xs:element name="CITA_HORARIO" msprop:design-time-name="5cbd3e40-8ed8-43f7-b4d1-3385eca8e45c" msprop:DbColumnName="CITA_HORARIO" msprop:FriendlyName="CITA_HORARIO" type="xs:anyType" minOccurs="0" />
+                  <xs:element name="CITA_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="8c7363fc-5650-4839-bdb6-91043a835305" msprop:DbColumnName="CITA_ID" msprop:FriendlyName="CITA_ID" type="xs:int" />
+                  <xs:element name="ESTADO_CITA_ID" msprop:design-time-name="cf3bde57-9ebb-4a5f-93d0-73f50e408b11" msprop:DbColumnName="ESTADO_CITA_ID" msprop:FriendlyName="ESTADO_CITA_ID" type="xs:int" minOccurs="0" />
+                  <xs:element name="CANALES_ID" msprop:design-time-name="e9e9fa24-8c42-4249-8888-e918ce943399" msprop:DbColumnName="CANALES_ID" msprop:FriendlyName="CANALES_ID" type="xs:int" minOccurs="0" />
+                  <xs:element name="TIPO_CITA_ID" msprop:design-time-name="10ca8319-f90b-4e1b-9935-fd548f604d76" msprop:DbColumnName="TIPO_CITA_ID" msprop:FriendlyName="TIPO_CITA_ID" type="xs:int" minOccurs="0" />
+                  <xs:element name="TIPO_SEGURO_ID" msprop:design-time-name="7c124664-4dca-49e5-89bb-6fd144df2f97" msprop:DbColumnName="TIPO_SEGURO_ID" msprop:FriendlyName="TIPO_SEGURO_ID" type="xs:int" minOccurs="0" />
+                  <xs:element name="ESPECIALIDAD_SEDES_ID" msprop:design-time-name="7950cf74-676a-4e35-91a1-8673aa0e3131" msprop:DbColumnName="ESPECIALIDAD_SEDES_ID" msprop:FriendlyName="ESPECIALIDAD_SEDES_ID" type="xs:int" minOccurs="0" />
+                  <xs:element name="PACIENTES_ID" msprop:design-time-name="3eaa6a1b-9e9c-4428-8202-626dac48f47c" msprop:DbColumnName="PACIENTES_ID" msprop:FriendlyName="PACIENTES_ID" type="xs:int" minOccurs="0" />
+                  <xs:element name="CITA_FECHA" msprop:design-time-name="7addc8d7-57ad-4be4-87e1-b1aefd793f90" msprop:DbColumnName="CITA_FECHA" msprop:FriendlyName="CITA_FECHA" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="CITA_HORARIO" msdata:DataType="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:design-time-name="f320ece1-8014-421c-928b-abba48ad2b6a" msprop:DbColumnName="CITA_HORARIO" msprop:FriendlyName="CITA_HORARIO" type="xs:anyType" minOccurs="0" />
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="dbo_TIPO_CITA" msprop:design-time-name="4b0b2377-5b9f-4a52-8573-168b7214fb18" msprop:FriendlyName="TIPO_CITA" msprop:DbSchemaName="dbo" msprop:DbTableName="TIPO_CITA" msprop:TableType="Table">
+            <xs:element name="dbo_TIPO_CITA" msprop:design-time-name="07621319-03f0-45b0-a42e-747d764692d1" msprop:DbTableName="TIPO_CITA" msprop:FriendlyName="TIPO_CITA" msprop:DbSchemaName="dbo" msprop:TableType="Table">
               <xs:complexType>
                 <xs:sequence>
-                  <xs:element name="TIPO_CITA_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="85234aca-b8f0-4f6a-944c-dec326c3651c" msprop:DbColumnName="TIPO_CITA_ID" msprop:FriendlyName="TIPO_CITA_ID" type="xs:int" />
-                  <xs:element name="TIPO_CITA" msprop:design-time-name="e78f40cf-5114-4e2e-bb6b-30e4e3ae28fe" msprop:DbColumnName="TIPO_CITA" msprop:FriendlyName="TIPO_CITA" minOccurs="0">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="100" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                </xs:sequence>
-              </xs:complexType>
-            </xs:element>
-            <xs:element name="dbo_ESTADO_CITA" msprop:design-time-name="67713f21-ee03-4bd3-b1b2-a38022d7e211" msprop:FriendlyName="ESTADO_CITA" msprop:DbSchemaName="dbo" msprop:DbTableName="ESTADO_CITA" msprop:TableType="Table">
-              <xs:complexType>
-                <xs:sequence>
-                  <xs:element name="ESTADO_CITA_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="51900174-3889-4e71-820a-fecdb8306163" msprop:DbColumnName="ESTADO_CITA_ID" msprop:FriendlyName="ESTADO_CITA_ID" type="xs:int" />
-                  <xs:element name="ESTADO_CITA_NOMBRE" msprop:design-time-name="e7f635f2-f506-49b3-8c02-450ae2e09725" msprop:DbColumnName="ESTADO_CITA_NOMBRE" msprop:FriendlyName="ESTADO_CITA_NOMBRE" minOccurs="0">
+                  <xs:element name="TIPO_CITA_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="f0a953ca-1f51-4343-a8f9-9132a16a401c" msprop:DbColumnName="TIPO_CITA_ID" msprop:FriendlyName="TIPO_CITA_ID" type="xs:int" />
+                  <xs:element name="TIPO_CITA" msprop:design-time-name="4f6f7a8a-8ed0-4afe-a8b6-01da79562f50" msprop:DbColumnName="TIPO_CITA" msprop:FriendlyName="TIPO_CITA" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="100" />
@@ -87,11 +74,11 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="dbo_CANALES" msprop:design-time-name="2a830fa9-cc6a-4cb1-b822-ff121e8a59fb" msprop:FriendlyName="CANALES" msprop:DbSchemaName="dbo" msprop:DbTableName="CANALES" msprop:TableType="Table">
+            <xs:element name="dbo_ESTADO_CITA" msprop:design-time-name="60428e56-51df-4bc9-8981-f84fa18a517a" msprop:DbTableName="ESTADO_CITA" msprop:FriendlyName="ESTADO_CITA" msprop:DbSchemaName="dbo" msprop:TableType="Table">
               <xs:complexType>
                 <xs:sequence>
-                  <xs:element name="CANALES_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="dc0bb0a0-4022-4420-9184-0cbfabca4927" msprop:DbColumnName="CANALES_ID" msprop:FriendlyName="CANALES_ID" type="xs:int" />
-                  <xs:element name="CANALES" msprop:design-time-name="4fc48c4a-4972-41a9-93c1-3864e639996b" msprop:DbColumnName="CANALES" msprop:FriendlyName="CANALES" minOccurs="0">
+                  <xs:element name="ESTADO_CITA_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="50809a53-6b62-4551-8a26-cfa9235b9062" msprop:DbColumnName="ESTADO_CITA_ID" msprop:FriendlyName="ESTADO_CITA_ID" type="xs:int" />
+                  <xs:element name="ESTADO_CITA_NOMBRE" msprop:design-time-name="ba0df5d4-cb92-4901-a3d7-cfd51d1aea07" msprop:DbColumnName="ESTADO_CITA_NOMBRE" msprop:FriendlyName="ESTADO_CITA_NOMBRE" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="100" />
@@ -101,21 +88,11 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="dbo_ESPECIALIDAD_MEDICO" msprop:design-time-name="ca0ef68e-5002-4f6f-8068-db7f3c6e8b92" msprop:FriendlyName="ESPECIALIDAD_MEDICO" msprop:DbSchemaName="dbo" msprop:DbTableName="ESPECIALIDAD_MEDICO" msprop:TableType="Table">
+            <xs:element name="dbo_CANALES" msprop:design-time-name="43d0078b-ea13-47fe-bda5-fd2d6004bcaa" msprop:DbTableName="CANALES" msprop:FriendlyName="CANALES" msprop:DbSchemaName="dbo" msprop:TableType="Table">
               <xs:complexType>
                 <xs:sequence>
-                  <xs:element name="ESPECIALIDAD_SEDES_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="3c54c5b6-ad0e-458e-b194-b3f9b3722f0c" msprop:DbColumnName="ESPECIALIDAD_SEDES_ID" msprop:FriendlyName="ESPECIALIDAD_SEDES_ID" type="xs:int" />
-                  <xs:element name="SEDES_ID" msprop:design-time-name="0cc64777-9e0a-4a1a-828b-da8e500614b6" msprop:DbColumnName="SEDES_ID" msprop:FriendlyName="SEDES_ID" type="xs:int" minOccurs="0" />
-                  <xs:element name="ESPECIALIDAD_ID" msprop:design-time-name="0eb7b96b-b201-4e49-9e87-d3501580b9ee" msprop:DbColumnName="ESPECIALIDAD_ID" msprop:FriendlyName="ESPECIALIDAD_ID" type="xs:int" minOccurs="0" />
-                  <xs:element name="MEDICO_ID" msprop:design-time-name="3a4b5bd9-fee2-4403-9464-73eb30f04a3b" msprop:DbColumnName="MEDICO_ID" msprop:FriendlyName="MEDICO_ID" type="xs:int" minOccurs="0" />
-                </xs:sequence>
-              </xs:complexType>
-            </xs:element>
-            <xs:element name="dbo_TIPO_SEGURO" msprop:design-time-name="021310b1-89fd-48de-8ffd-abd9f474137c" msprop:FriendlyName="TIPO_SEGURO" msprop:DbSchemaName="dbo" msprop:DbTableName="TIPO_SEGURO" msprop:TableType="Table">
-              <xs:complexType>
-                <xs:sequence>
-                  <xs:element name="TIPO_SEGURO_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="56d0a2a4-9a0a-4a22-99cd-cad2aeb9d1bf" msprop:DbColumnName="TIPO_SEGURO_ID" msprop:FriendlyName="TIPO_SEGURO_ID" type="xs:int" />
-                  <xs:element name="TIPO_SEGURO" msprop:design-time-name="26fe056e-f3ee-4aee-a619-539b2077c771" msprop:DbColumnName="TIPO_SEGURO" msprop:FriendlyName="TIPO_SEGURO" minOccurs="0">
+                  <xs:element name="CANALES_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="c0040946-64f6-4ad7-a9c6-25a45801b0c8" msprop:DbColumnName="CANALES_ID" msprop:FriendlyName="CANALES_ID" type="xs:int" />
+                  <xs:element name="CANALES" msprop:design-time-name="25c8c9c8-57b7-4487-8a01-68e0397c028e" msprop:DbColumnName="CANALES" msprop:FriendlyName="CANALES" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="100" />
@@ -125,62 +102,86 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="dbo_PACIENTES" msprop:design-time-name="f724aab9-5274-4228-880a-b0990dc95585" msprop:FriendlyName="PACIENTES" msprop:DbSchemaName="dbo" msprop:DbTableName="PACIENTES" msprop:TableType="Table">
+            <xs:element name="dbo_ESPECIALIDAD_MEDICO" msprop:design-time-name="b0eef113-7a1e-4d9d-9397-d271e0f8edd0" msprop:DbTableName="ESPECIALIDAD_MEDICO" msprop:FriendlyName="ESPECIALIDAD_MEDICO" msprop:DbSchemaName="dbo" msprop:TableType="Table">
               <xs:complexType>
                 <xs:sequence>
-                  <xs:element name="PACIENTES_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="499b7b3d-7a2e-43d7-99d1-4775e1d33a0e" msprop:DbColumnName="PACIENTES_ID" msprop:FriendlyName="PACIENTES_ID" type="xs:int" />
-                  <xs:element name="PACIENTES_NOMBRE" msprop:design-time-name="37caa053-4a58-4f3e-be13-49c9fdd25e7e" msprop:DbColumnName="PACIENTES_NOMBRE" msprop:FriendlyName="PACIENTES_NOMBRE" minOccurs="0">
+                  <xs:element name="ESPECIALIDAD_SEDES_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="3f23aa55-f1e4-4d81-a28d-a7252cc6db11" msprop:DbColumnName="ESPECIALIDAD_SEDES_ID" msprop:FriendlyName="ESPECIALIDAD_SEDES_ID" type="xs:int" />
+                  <xs:element name="SEDES_ID" msprop:design-time-name="6645451f-c7fd-46a1-a677-32faca1de485" msprop:DbColumnName="SEDES_ID" msprop:FriendlyName="SEDES_ID" type="xs:int" minOccurs="0" />
+                  <xs:element name="ESPECIALIDAD_ID" msprop:design-time-name="7e388369-8f48-410f-9a23-738d4386ceb8" msprop:DbColumnName="ESPECIALIDAD_ID" msprop:FriendlyName="ESPECIALIDAD_ID" type="xs:int" minOccurs="0" />
+                  <xs:element name="MEDICO_ID" msprop:design-time-name="3c5f0774-8047-4ed1-8f57-8bed380b3c36" msprop:DbColumnName="MEDICO_ID" msprop:FriendlyName="MEDICO_ID" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_TIPO_SEGURO" msprop:design-time-name="bc44ab26-6559-4e41-9c3d-60346b67057d" msprop:DbTableName="TIPO_SEGURO" msprop:FriendlyName="TIPO_SEGURO" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="TIPO_SEGURO_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="458ee8f9-3937-4d4a-b7d7-470ed75ca110" msprop:DbColumnName="TIPO_SEGURO_ID" msprop:FriendlyName="TIPO_SEGURO_ID" type="xs:int" />
+                  <xs:element name="TIPO_SEGURO" msprop:design-time-name="0f95ad19-2fad-4601-bce5-582dfe76cffc" msprop:DbColumnName="TIPO_SEGURO" msprop:FriendlyName="TIPO_SEGURO" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="100" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="PACIENTES_APELLIDO_PATERNO" msprop:design-time-name="a2c9ffd5-24ce-462b-879d-fbec68dda53f" msprop:DbColumnName="PACIENTES_APELLIDO_PATERNO" msprop:FriendlyName="PACIENTES_APELLIDO_PATERNO" minOccurs="0">
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_PACIENTES" msprop:design-time-name="abd9ee4d-7cc1-4103-98c4-0d20441200ea" msprop:DbTableName="PACIENTES" msprop:FriendlyName="PACIENTES" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="PACIENTES_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="a90611f9-16ad-44fa-bf44-affd70a8e7b9" msprop:DbColumnName="PACIENTES_ID" msprop:FriendlyName="PACIENTES_ID" type="xs:int" />
+                  <xs:element name="PACIENTES_NOMBRE" msprop:design-time-name="19a780b2-5815-49e6-8be0-acb105791c66" msprop:DbColumnName="PACIENTES_NOMBRE" msprop:FriendlyName="PACIENTES_NOMBRE" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="100" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="PACIENTES_APELLIDO_MATERNO" msprop:design-time-name="c7d175ed-aa6b-4216-88ef-614c9f48bac6" msprop:DbColumnName="PACIENTES_APELLIDO_MATERNO" msprop:FriendlyName="PACIENTES_APELLIDO_MATERNO" minOccurs="0">
+                  <xs:element name="PACIENTES_APELLIDO_PATERNO" msprop:design-time-name="afff1544-ecb0-4fdb-a771-de9235c3fddb" msprop:DbColumnName="PACIENTES_APELLIDO_PATERNO" msprop:FriendlyName="PACIENTES_APELLIDO_PATERNO" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="100" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="PACIENTES_GENERO" msprop:design-time-name="3c05260f-097b-4a97-9717-4656cd05e420" msprop:DbColumnName="PACIENTES_GENERO" msprop:FriendlyName="PACIENTES_GENERO" minOccurs="0">
+                  <xs:element name="PACIENTES_APELLIDO_MATERNO" msprop:design-time-name="1179f431-dccb-4ed6-82f6-1705b2d80454" msprop:DbColumnName="PACIENTES_APELLIDO_MATERNO" msprop:FriendlyName="PACIENTES_APELLIDO_MATERNO" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="100" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="PACIENTES_EDAD" msprop:design-time-name="c1e3b645-ca63-4d9d-8135-7482cdd3482a" msprop:DbColumnName="PACIENTES_EDAD" msprop:FriendlyName="PACIENTES_EDAD" type="xs:int" minOccurs="0" />
-                  <xs:element name="PACIENTES_DNI" msprop:design-time-name="8f9dafe6-ec41-402b-951c-07d84c12e22c" msprop:DbColumnName="PACIENTES_DNI" msprop:FriendlyName="PACIENTES_DNI" minOccurs="0">
+                  <xs:element name="PACIENTES_GENERO" msprop:design-time-name="a8f10aa6-63eb-40a1-8521-cb4b061fd77a" msprop:DbColumnName="PACIENTES_GENERO" msprop:FriendlyName="PACIENTES_GENERO" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="PACIENTES_EDAD" msprop:design-time-name="3376a9e9-c85e-4851-a6a3-a59f4315dd28" msprop:DbColumnName="PACIENTES_EDAD" msprop:FriendlyName="PACIENTES_EDAD" type="xs:int" minOccurs="0" />
+                  <xs:element name="PACIENTES_DNI" msprop:design-time-name="3c65754b-f7b0-489b-8f63-8feb2d29b09c" msprop:DbColumnName="PACIENTES_DNI" msprop:FriendlyName="PACIENTES_DNI" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="20" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="PACIENTES_FECHA_EMISION" msprop:design-time-name="e15dfa65-57e7-43e3-859c-30401e1c2639" msprop:DbColumnName="PACIENTES_FECHA_EMISION" msprop:FriendlyName="PACIENTES_FECHA_EMISION" type="xs:dateTime" minOccurs="0" />
-                  <xs:element name="PACIENTES_CORREO" msprop:design-time-name="436cb4ac-54fe-4137-849b-439c2cf1cc7d" msprop:DbColumnName="PACIENTES_CORREO" msprop:FriendlyName="PACIENTES_CORREO" minOccurs="0">
+                  <xs:element name="PACIENTES_FECHA_EMISION" msprop:design-time-name="62709980-0da7-46fc-9916-a9a460809bea" msprop:DbColumnName="PACIENTES_FECHA_EMISION" msprop:FriendlyName="PACIENTES_FECHA_EMISION" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="PACIENTES_CORREO" msprop:design-time-name="d1722a94-81db-45a8-848d-cfd9e4d8cacb" msprop:DbColumnName="PACIENTES_CORREO" msprop:FriendlyName="PACIENTES_CORREO" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="100" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="PACIENTES_CELULAR" msprop:design-time-name="b9455b9e-12fd-4506-97b5-e571b4791133" msprop:DbColumnName="PACIENTES_CELULAR" msprop:FriendlyName="PACIENTES_CELULAR" minOccurs="0">
+                  <xs:element name="PACIENTES_CELULAR" msprop:design-time-name="a15e639e-183e-4d05-9a91-7fef24a3b80c" msprop:DbColumnName="PACIENTES_CELULAR" msprop:FriendlyName="PACIENTES_CELULAR" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="100" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="PACIENTES_PASSWORD" msprop:design-time-name="bd952e08-3506-4067-951c-a85efa732756" msprop:DbColumnName="PACIENTES_PASSWORD" msprop:FriendlyName="PACIENTES_PASSWORD" minOccurs="0">
+                  <xs:element name="PACIENTES_PASSWORD" msprop:design-time-name="1f12b4c3-3339-4274-80ef-6174b7df04be" msprop:DbColumnName="PACIENTES_PASSWORD" msprop:FriendlyName="PACIENTES_PASSWORD" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="100" />
@@ -220,32 +221,32 @@
           <xs:selector xpath=".//dbo_PACIENTES" />
           <xs:field xpath="PACIENTES_ID" />
         </xs:unique>
-        <xs:keyref name="FK_CITA_REFERENCE_TIPO_CIT" refer="dbo_TIPO_CITA_Constraint1">
+        <xs:keyref name="FK_CITA_REFERENCE_PACIENTE" refer="dbo_PACIENTES_Constraint1">
           <xs:selector xpath=".//dbo_CITA" />
-          <xs:field xpath="TIPO_CITA_ID" />
-        </xs:keyref>
-        <xs:keyref name="FK_CITA_REFERENCE_TIPO_SEG" refer="dbo_TIPO_SEGURO_Constraint1">
-          <xs:selector xpath=".//dbo_CITA" />
-          <xs:field xpath="TIPO_SEGURO_ID" />
-        </xs:keyref>
-        <xs:keyref name="FK_CITA_REFERENCE_CANALES" refer="dbo_CANALES_Constraint1">
-          <xs:selector xpath=".//dbo_CITA" />
-          <xs:field xpath="CANALES_ID" />
-        </xs:keyref>
-        <xs:keyref name="FK_CITA_REFERENCE_ESTADO_C" refer="dbo_ESTADO_CITA_Constraint1">
-          <xs:selector xpath=".//dbo_CITA" />
-          <xs:field xpath="ESTADO_CITA_ID" />
+          <xs:field xpath="PACIENTES_ID" />
         </xs:keyref>
         <xs:keyref name="FK_CITA_REFERENCE_ESPECIAL" refer="dbo_ESPECIALIDAD_MEDICO_Constraint1">
           <xs:selector xpath=".//dbo_CITA" />
           <xs:field xpath="ESPECIALIDAD_SEDES_ID" />
         </xs:keyref>
-        <xs:keyref name="FK_CITA_REFERENCE_PACIENTE" refer="dbo_PACIENTES_Constraint1">
+        <xs:keyref name="FK_CITA_REFERENCE_ESTADO_C" refer="dbo_ESTADO_CITA_Constraint1">
           <xs:selector xpath=".//dbo_CITA" />
-          <xs:field xpath="PACIENTES_ID" />
+          <xs:field xpath="ESTADO_CITA_ID" />
+        </xs:keyref>
+        <xs:keyref name="FK_CITA_REFERENCE_CANALES" refer="dbo_CANALES_Constraint1">
+          <xs:selector xpath=".//dbo_CITA" />
+          <xs:field xpath="CANALES_ID" />
+        </xs:keyref>
+        <xs:keyref name="FK_CITA_REFERENCE_TIPO_SEG" refer="dbo_TIPO_SEGURO_Constraint1">
+          <xs:selector xpath=".//dbo_CITA" />
+          <xs:field xpath="TIPO_SEGURO_ID" />
+        </xs:keyref>
+        <xs:keyref name="FK_CITA_REFERENCE_TIPO_CIT" refer="dbo_TIPO_CITA_Constraint1">
+          <xs:selector xpath=".//dbo_CITA" />
+          <xs:field xpath="TIPO_CITA_ID" />
         </xs:keyref>
       </xs:element>
     </xs:schema>
-    <Clinicadb xmlns="" />
+    <Dsv_Datamart_Clinica xmlns="" />
   </Schema>
 </DataSourceView>

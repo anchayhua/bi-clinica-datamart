@@ -1,14 +1,14 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="219259a0-6421-4d4d-a48a-615704b0a855" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c47fb9b7-ed81-4c77-8867-aedcd9cea4f6" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>TIPO SEGURO</ID>
   <Name>TIPO SEGURO</Name>
-  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-6674" scrolltop="-9075" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="17092" y="20029" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-6674" scrolltop="-10861" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="17092" y="23601" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -51,7 +51,7 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-9075</Value>
+      <Value>-10861</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -66,35 +66,35 @@
       <Value>100</Value>
     </Annotation>
   </Annotations>
-  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="b1b48ba4-4436-4dd5-8098-868d67091230">
-    <DataSourceViewID>Clinicadb</DataSourceViewID>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="91f1b110-f036-4a14-9119-23b05be0473b">
+    <DataSourceViewID>Dsv_Datamart_Clinica</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="8d850bd4-273a-4fb5-82c8-1dc9cf195751">
+  <ErrorConfiguration dwd:design-time-name="35da3f72-b9e9-4f94-84b8-9259ec1d076c">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="0ce7b485-9ecc-4d05-9f9e-33bad3ba33d3">
+    <Attribute dwd:design-time-name="ebae3a5c-9105-461c-829c-a8087a74c432">
       <ID>TIPO SEGURO ID</ID>
       <Name>TIPO SEGURO ID</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="ed109993-1239-4d58-9391-d93a15b00f29">
+        <KeyColumn dwd:design-time-name="a42d9a80-77de-471e-ac5e-e763ffa39d35">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="9371ff9d-168e-42e3-83ad-81756fddb5cb">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="64c13eaa-5289-4071-a7de-ca4a8cd4bb52">
             <TableID>dbo_TIPO_SEGURO</TableID>
             <ColumnID>TIPO_SEGURO_ID</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="c807ec70-a27d-4ab8-b259-31d4f4491a39">
+        <AttributeRelationship dwd:design-time-name="c3dd6598-b156-497a-8e01-f2d2fd2080cd">
           <AttributeID>TIPO SEGURO</AttributeID>
           <Name>TIPO SEGURO</Name>
         </AttributeRelationship>
@@ -103,14 +103,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="743e24d2-f2a0-4177-860b-9c344129f413">
+    <Attribute dwd:design-time-name="da0a8ac8-f3b8-43dc-a00b-e02246af997a">
       <ID>TIPO SEGURO</ID>
       <Name>TIPO SEGURO</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="a76bbbbc-0d76-44ba-aac0-f28ad37966cd">
+        <KeyColumn dwd:design-time-name="ecf49f62-a309-4348-9511-2780daa4a7ca">
           <DataType>WChar</DataType>
           <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="b4baaa2c-e534-420c-8870-d326a747f633">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d55ccae2-aec5-4c22-896b-50123c9b61c2">
             <TableID>dbo_TIPO_SEGURO</TableID>
             <ColumnID>TIPO_SEGURO</ColumnID>
           </Source>
@@ -121,11 +121,11 @@
     </Attribute>
   </Attributes>
   <Hierarchies>
-    <Hierarchy dwd:design-time-name="ceff2c58-4591-47aa-926e-875a42f9d300">
+    <Hierarchy dwd:design-time-name="960ba05e-a36f-4b51-a9e8-62787e24796b">
       <ID>Jerarquía</ID>
-      <Name>TIPO DE SEGURO</Name>
+      <Name>Jerarquía</Name>
       <Levels>
-        <Level dwd:design-time-name="c1206d28-43e9-4106-9bf3-f5467b5442be">
+        <Level dwd:design-time-name="71e421e4-5718-4686-b155-c0f744d1b359">
           <ID>TIPO SEGURO</ID>
           <Name>TIPO SEGURO</Name>
           <SourceAttributeID>TIPO SEGURO</SourceAttributeID>
