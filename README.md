@@ -20,3 +20,5 @@ Business Intelligence
 	* Seleccionar en cualquier Dimesion para trabajr en los cubos
 		- Seleccionar atributos en la tabla y arrastrar al inicial,, finalizando en las Jerarquias
 		- Despues darle clic en el icono de "procesar"
+		
+* Para agregar dimension personalizada, se tiene que seleccionar el Vista del Origen de Datos (DSV) y poner nueva consulta con nmbre  (derecho)

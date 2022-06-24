@@ -35,6 +35,10 @@
       <Name>ESTADO CITA.dim</Name>
       <FullPath>ESTADO CITA.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>FECHA CITA.dim</Name>
+      <FullPath>FECHA CITA.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
