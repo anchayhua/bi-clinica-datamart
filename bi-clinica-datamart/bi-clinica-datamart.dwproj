@@ -39,6 +39,10 @@
       <Name>FECHA CITA.dim</Name>
       <FullPath>FECHA CITA.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>CITA SEDE.dim</Name>
+      <FullPath>CITA SEDE.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>

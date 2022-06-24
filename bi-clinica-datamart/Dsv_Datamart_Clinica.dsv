@@ -1,4 +1,4 @@
-﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e44794fe-4b8f-4802-80b7-ad4f1946f832" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="ac66e1cf-f08a-4251-b330-b4c99f95c1a5" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Dsv_Datamart_Clinica</ID>
   <Name>Dsv_Datamart_Clinica</Name>
   <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
@@ -27,7 +27,7 @@
             <Name>_ALL_TABLES_</Name>
             <DiagramLayout>
               <dds>
-                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="32" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="2095" scrolltop="-3042" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="23389" y="11324" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="34" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="1123" scrolltop="-926" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="22939" y="13256" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                   <font>
                     <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
                   </font>
@@ -231,7 +231,7 @@
                     <point x="11284" y="9967" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="FECHA_CITA" left="17455" top="1015" logicalid="29" controlid="14" masterid="0" hint1="0" hint2="0" width="3916" height="3175" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="FECHA_CITA" left="16432" top="-8" logicalid="29" controlid="14" masterid="0" hint1="0" hint2="0" width="3916" height="3175" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000e00004c0f0000670c0000" />
                   </control>
@@ -242,7 +242,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="12842" top="2203" logicalid="30" controlid="15" masterid="0" hint1="0" hint2="0" width="4913" height="3443" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="12842" top="2280" logicalid="30" controlid="15" masterid="0" hint1="0" hint2="0" width="3890" height="3366" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -255,19 +255,50 @@
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="14" destid="1" sourceattachpoint="18" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="17455" y="2602" />
-                    <point x="14540" y="2602" />
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="14" destid="1" sourceattachpoint="22" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="16432" y="2679" />
+                    <point x="14540" y="2679" />
                     <point x="14540" y="5346" />
                     <point x="13142" y="5346" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="CITA_SEDE" left="23647" top="2408" logicalid="32" controlid="17" masterid="0" hint1="0" hint2="0" width="5609" height="1870" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000e91500004e070000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="CITA_SEDE" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="12842" top="3494" logicalid="33" controlid="18" masterid="0" hint1="0" hint2="0" width="11105" height="2702" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[CITA-CITA_SEDE]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="17" destid="1" sourceattachpoint="22" destattachpoint="21" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="23647" y="3893" />
+                    <point x="18271" y="3893" />
+                    <point x="18271" y="5896" />
+                    <point x="13142" y="5896" />
                   </connector>
                 </ddscontrol>
               </dds>
 </DiagramLayout>
             <ShowRelationshipNames>False</ShowRelationshipNames>
             <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
-            <DiagramViewPortLeft>2095</DiagramViewPortLeft>
-            <DiagramViewPortTop>-3042</DiagramViewPortTop>
+            <DiagramViewPortLeft>1123</DiagramViewPortLeft>
+            <DiagramViewPortTop>-926</DiagramViewPortTop>
             <DiagramBoundingLeft>0</DiagramBoundingLeft>
             <DiagramBoundingTop>0</DiagramBoundingTop>
             <DiagramZoom>75</DiagramZoom>
@@ -432,10 +463,24 @@
               <xs:complexType>
                 <xs:sequence>
                   <xs:element name="CITA_HORARIO" msprop:design-time-name="b87c6253-98c6-4af8-923d-515c0d63086c" msprop:DbColumnName="CITA_HORARIO" msprop:FriendlyName="CITA_HORARIO" type="xs:anyType" minOccurs="0" />
-                  <xs:element name="CITA_ID" msprop:design-time-name="19be91dd-5bbd-4d49-98f1-6c87326d94c8" msprop:DbColumnName="CITA_ID" type="xs:int" minOccurs="0" />
-                  <xs:element name="FECHA" msprop:DbColumnName="FECHA" msprop:design-time-name="6429ce57-ab9f-467b-9149-3afdbcdabd43" type="xs:dateTime" minOccurs="0" />
-                  <xs:element name="MES" msprop:DbColumnName="MES" msprop:design-time-name="061b3645-8b45-4640-a74b-08d1342d7b05" type="xs:int" minOccurs="0" />
-                  <xs:element name="ANIO" msprop:DbColumnName="ANIO" msprop:design-time-name="11485d71-be2f-4352-834b-4523ff8ab633" type="xs:int" minOccurs="0" />
+                  <xs:element name="CITA_ID" msprop:design-time-name="19be91dd-5bbd-4d49-98f1-6c87326d94c8" msprop:DbColumnName="CITA_ID" type="xs:int" />
+                  <xs:element name="FECHA" msprop:design-time-name="6429ce57-ab9f-467b-9149-3afdbcdabd43" msprop:DbColumnName="FECHA" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="MES" msprop:design-time-name="061b3645-8b45-4640-a74b-08d1342d7b05" msprop:DbColumnName="MES" type="xs:int" minOccurs="0" />
+                  <xs:element name="ANIO" msprop:design-time-name="11485d71-be2f-4352-834b-4523ff8ab633" msprop:DbColumnName="ANIO" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="CITA_SEDE" msprop:design-time-name="e53ef9f8-82e9-409a-b9d9-9d312da3e457" msprop:IsLogical="True" msprop:FriendlyName="CITA_SEDE" msprop:DbTableName="CITA_SEDE" msprop:TableType="View" msprop:Description="Filtros por sede" msprop:QueryDefinition="SELECT        SEDES.SEDES_NOMBRE AS NOMBRE, CITA.CITA_ID&#xD;&#xA;FROM            SEDES INNER JOIN&#xD;&#xA;                         ESPECIALIDAD_MEDICO ON SEDES.SEDES_ID = ESPECIALIDAD_MEDICO.SEDES_ID INNER JOIN&#xD;&#xA;                         CITA ON ESPECIALIDAD_MEDICO.ESPECIALIDAD_SEDES_ID = CITA.ESPECIALIDAD_SEDES_ID" msprop:QueryBuilder="SpecificQueryBuilder">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="CITA_ID" msprop:DbColumnName="CITA_ID" msprop:design-time-name="03b0b1fb-d950-4ac5-b60a-c3d99685b7a4" type="xs:int" minOccurs="0" />
+                  <xs:element name="NOMBRE" msprop:DbColumnName="NOMBRE" msprop:design-time-name="209b979e-9d21-483d-b24e-18258936704c" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
@@ -473,34 +518,39 @@
           <xs:selector xpath=".//FECHA_CITA" />
           <xs:field xpath="CITA_ID" />
         </xs:unique>
-        <xs:keyref name="FK_CITA_REFERENCE_PACIENTE" refer="dbo_PACIENTES_Constraint1">
+        <xs:unique name="CITA_SEDE_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//CITA_SEDE" />
+          <xs:field xpath="CITA_ID" />
+        </xs:unique>
+        <xs:keyref name="FK_CITA_REFERENCE_TIPO_CIT" refer="dbo_TIPO_CITA_Constraint1">
           <xs:selector xpath=".//dbo_CITA" />
-          <xs:field xpath="PACIENTES_ID" />
-        </xs:keyref>
-        <xs:keyref name="FK_CITA_REFERENCE_ESPECIAL" refer="dbo_ESPECIALIDAD_MEDICO_Constraint1">
-          <xs:selector xpath=".//dbo_CITA" />
-          <xs:field xpath="ESPECIALIDAD_SEDES_ID" />
-        </xs:keyref>
-        <xs:keyref name="FK_CITA_REFERENCE_ESTADO_C" refer="dbo_ESTADO_CITA_Constraint1">
-          <xs:selector xpath=".//dbo_CITA" />
-          <xs:field xpath="ESTADO_CITA_ID" />
-        </xs:keyref>
-        <xs:keyref name="FK_CITA_REFERENCE_CANALES" refer="dbo_CANALES_Constraint1">
-          <xs:selector xpath=".//dbo_CITA" />
-          <xs:field xpath="CANALES_ID" />
+          <xs:field xpath="TIPO_CITA_ID" />
         </xs:keyref>
         <xs:keyref name="FK_CITA_REFERENCE_TIPO_SEG" refer="dbo_TIPO_SEGURO_Constraint1">
           <xs:selector xpath=".//dbo_CITA" />
           <xs:field xpath="TIPO_SEGURO_ID" />
         </xs:keyref>
-        <xs:keyref name="FK_CITA_REFERENCE_TIPO_CIT" refer="dbo_TIPO_CITA_Constraint1">
+        <xs:keyref name="FK_CITA_REFERENCE_CANALES" refer="dbo_CANALES_Constraint1">
           <xs:selector xpath=".//dbo_CITA" />
-          <xs:field xpath="TIPO_CITA_ID" />
+          <xs:field xpath="CANALES_ID" />
+        </xs:keyref>
+        <xs:keyref name="FK_CITA_REFERENCE_ESTADO_C" refer="dbo_ESTADO_CITA_Constraint1">
+          <xs:selector xpath=".//dbo_CITA" />
+          <xs:field xpath="ESTADO_CITA_ID" />
+        </xs:keyref>
+        <xs:keyref name="FK_CITA_REFERENCE_ESPECIAL" refer="dbo_ESPECIALIDAD_MEDICO_Constraint1">
+          <xs:selector xpath=".//dbo_CITA" />
+          <xs:field xpath="ESPECIALIDAD_SEDES_ID" />
+        </xs:keyref>
+        <xs:keyref name="FK_CITA_REFERENCE_PACIENTE" refer="dbo_PACIENTES_Constraint1">
+          <xs:selector xpath=".//dbo_CITA" />
+          <xs:field xpath="PACIENTES_ID" />
         </xs:keyref>
       </xs:element>
       <xs:annotation>
         <xs:appinfo>
           <msdata:Relationship name="CITA-FECHA_CITA" msdata:parent="FECHA_CITA" msdata:child="dbo_CITA" msdata:parentkey="CITA_ID" msdata:childkey="CITA_ID" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="CITA-CITA_SEDE" msdata:parent="CITA_SEDE" msdata:child="dbo_CITA" msdata:parentkey="CITA_ID" msdata:childkey="CITA_ID" msprop:IsLogical="True" msprop:Description="" />
         </xs:appinfo>
       </xs:annotation>
     </xs:schema>
